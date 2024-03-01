@@ -17,6 +17,7 @@ const initialState = {
 }
 
 export default class AppClass extends React.Component {
+  
   // THE FOLLOWING HELPERS ARE JUST RECOMMENDATIONS.
   // You can delete them and build your own logic from scratch.
 
@@ -60,7 +61,7 @@ export default class AppClass extends React.Component {
       <div id="wrapper" className={className}>
         <p>(This component is not required to pass the sprint)</p>
         <div className="info">
-          <h3 id="coordinates">Coordinates (2, 2)</h3>
+        <h3 id="coordinates">Coordinates (2, 2)</h3>
           <h3 id="steps">You moved 0 times</h3>
         </div>
         <div id="grid">
